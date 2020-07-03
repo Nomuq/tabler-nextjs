@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Error404() {
   return (
     <div className="antialiased border-top-wide border-primary d-flex flex-column">
@@ -13,26 +15,28 @@ export default function Error404() {
               fulfilled
             </p>
             <div className="empty-action">
-              <a href="./." className="btn btn-primary">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon"
-                  width={24}
-                  height={24}
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" />
-                  <line x1={5} y1={12} x2={19} y2={12} />
-                  <line x1={5} y1={12} x2={11} y2={18} />
-                  <line x1={5} y1={12} x2={11} y2={6} />
-                </svg>
-                Take me home
-              </a>
+              <Link href="/">
+                <a className="btn btn-primary">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="icon"
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <line x1={5} y1={12} x2={19} y2={12} />
+                    <line x1={5} y1={12} x2={11} y2={18} />
+                    <line x1={5} y1={12} x2={11} y2={6} />
+                  </svg>
+                  Take me home
+                </a>
+              </Link>
             </div>
           </div>
         </div>

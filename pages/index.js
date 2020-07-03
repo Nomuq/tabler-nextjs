@@ -3,11 +3,11 @@ export default function index() {
     <div>
       {/* <!-- Libs JS --> */}
       <script src="./dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="./dist/libs/jquery/dist/jquery.slim.min.js"></script>
+      {/* <script src="./dist/libs/jquery/dist/jquery.slim.min.js"></script>
       <script src="./dist/libs/apexcharts/dist/apexcharts.min.js"></script>
       <script src="./dist/libs/jqvmap/dist/jquery.vmap.min.js"></script>
       <script src="./dist/libs/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-      <script src="./dist/libs/peity/jquery.peity.min.js"></script>
+      <script src="./dist/libs/peity/jquery.peity.min.js"></script> */}
       {/* <!-- Tabler Core --> */}
       <script src="./dist/js/tabler.min.js"></script>
 
